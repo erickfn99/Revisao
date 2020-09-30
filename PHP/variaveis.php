@@ -9,12 +9,12 @@ $peso = 70.5;
 $lindo = true;
 $imc = $peso / ($altura*$altura);
 
-echo "Nome: ", $nome,
-"\nIdade: ", $idade,
-"\nAltura: ", $altura,
+echo "Nome: $nome".
+"\nIdade: ". $idade.
+"\nAltura: ", $altura.
 "\nPeso: ", $peso,
 "\nIMC: ", $imc,
-"\nLindo: ", $lindo,
+"\nLindo: ". $lindo,
 "\nDois ao cubo: ", 2**3;
 
 echo "\n";
